@@ -1,0 +1,79 @@
+:root{
+    --Raleway: 'Raleway',sans-serif;
+    --txtcolor:#464646;
+    --banner:#ffff;
+    --azul:#2A7AE4;
+    ;
+    
+}
+.encabezado{
+    width: 100%;
+    height:auto;
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+
+}
+
+.encabezado__contenido{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+  
+    align-items: center;
+}
+
+
+.logo__img{
+    width: auto;
+    height: 40px;
+
+}
+
+
+.button__login{
+    width: 133px;
+    height:40px;
+     background-color:#ffff ;
+     color: var(--azul);
+    
+     font-family: var(--Raleway);
+     border: 1px solid var(--azul);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 12px 16px 12px 16px;
+
+
+}
+
+.login:hover{
+    cursor: pointer;
+}
+.buscar{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #ffff;
+    border: none;
+    
+    
+
+}
+
+.buscar img{
+    width: 20px;   
+    height: 20px;
+    padding-top: 3px;
+    padding-left: 3px;
+    
+}

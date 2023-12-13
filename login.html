@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/Encabezado.css">
+    <link rel="stylesheet" href="/styles/Footer.css">
+    <link rel="stylesheet" href="/styles/Rodapie.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/Login.css">
+    <link rel="stylesheet" href="/styles/Footer__login.css">
+</head>
+<body>
+    <section class="encabezado">
+        <div class="encabezado__contenido">
+
+           
+            <img class="logo__img" src="/img/logo2.svg" alt="logo AluraGeek">
+
+
+            <button class="buscar" type="submit"><img src="/img/buscar.svg"></button>
+        
+        </div>
+
+    </section>
+
+    <section class="login">
+        <div class="container__login">
+            <h3>Iniciar Sesion</h3>
+
+            <form class="form__login" id="form__login__js">
+                <input class="txt__correo" id="input__correo" type="email" name="correo" placeholder="Escriba se correo electronico" required>
+                <input class="txt__password" id="input__pasword" type="password" name="contraseña" placeholder="Escriba su contraseña" required>
+                <button class="styles__button button__mensaje  " id="Submit__login">Entrar</button>
+                
+            </form>
+
+        </div>
+        <div id="mensaje__alert"></div>
+
+    </section>
+
+
+    <section class="footer__login">
+        <section class="footer ">
+            <div class="footer__container">
+                <div class="menu">
+                    <img class="logo__img__footer" src="/img/logo2.svg" alt="logo AluraGeek">
+                    <nav class="menu__nav">
+                        <ul>
+                            <li class="menu__nav__link"><a  href="#">Quienes somos</a></li>
+                            <li class="menu__nav__link"><a href="#">Politica de privacidad</a></li>
+                            <li class="menu__nav__link"><a href="#">Programa de fidelidad</a></li>
+                            <li class="menu__nav__link"><a href="#">Nuestras tiendas</a></li>
+                            <li class="menu__nav__link"><a href="#">Quiero ser franquiciado</a></li>
+                            <li class="menu__nav__link"><a href="#">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+    
+                   
+                </div>
+                <div class="contactanos">
+                    <h3>Hable con nosotros</h3>
+        
+                    <form class="form__contact">
+                        <input class="txt__nombre" type="text" name="nombre" placeholder="Nombre" required>
+                        <textarea class="txt__mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        <button class="styles__button banner__contenido__button ">Enviar mensaje</button>
+                        
+                    </form>
+        
+                </div>
+               
+                
+    
+            </div>
+           
+        </section>
+    
+        <section class="rodapie">
+            <p>Desarrollo por Tony valverde</p>
+            <p>2023</p>
+            
+        </section>
+
+
+    </section>
+    <script src="js/login.js"></script>
+
+
+
+    
+    
+</body>
+</html>

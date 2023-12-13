@@ -1,0 +1,23 @@
+.styles__button{
+    
+    height:40px;
+     background-color: var(--azul);
+     color: #ffff;
+     border-color: var(--azul);
+     font-family: var(--Raleway);
+
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+
+
+}
+body{
+    background: #F5F5F5;
+
+}
+

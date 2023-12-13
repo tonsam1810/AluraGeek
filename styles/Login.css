@@ -1,0 +1,68 @@
+.login{
+   width: 100%;
+   height: auto;
+   display: flex;
+ 
+   justify-content: center;
+   
+ 
+}
+
+.container__login{
+    width: 275px;
+    height: auto;
+    top: 169px;
+    position: absolute;
+   
+   
+
+}
+
+.container__login h3 {
+    font-family: var(--Raleway);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #464646;
+    
+
+
+
+}
+.form__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.txt__correo{
+    width: 275px;
+    height: 41px;
+
+    padding: 8px, 0px, 0px, 0px;
+    border-radius: 4px;
+    gap: 4px;
+    margin-top: 16px;
+    border: none;
+
+
+}
+.txt__password{
+    width: 275px;
+    height: 41px;
+
+    padding: 8px, 0px, 0px, 0px;
+    border-radius: 4px;
+    gap: 4px;
+    margin-top: 16px;
+    border: none;
+
+}
+.button__mensaje{
+    margin-top: 16px;
+    width: 109px;
+   
+
+}

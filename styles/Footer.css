@@ -1,0 +1,203 @@
+:root{
+    --Raleway: 'Raleway',sans-serif;
+    --txtcolor:#464646;
+    --banner:#ffff;
+    --azul:#2A7AE4;
+    ;
+    
+}
+
+
+
+.footer{
+    background-color: #EAF2FD;
+    padding: 16px;
+    width: 100%-32px;   
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logo__img__footer{
+    width: 176px;
+    height: 50px
+
+
+}
+
+
+.menu__nav ul{
+    width: 100%;
+    height: 194px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+
+.menu__nav__link{
+    font-family: var(--Raleway);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+
+}
+
+.menu__nav__link a{
+    
+    
+    list-style: none;
+    text-decoration: none;
+    color:var(--txtcolor);
+   
+}
+.contactanos{
+    width: 100%;
+    padding-top: 32px;
+
+
+}
+
+.contactanos h3{
+    width: 100%;
+    font-family: var(--Raleway);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.form__contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.txt__nombre{
+    width: 100%;
+    height: 56px;
+    margin-top: 16px;
+    font-family: var(--Raleway);
+    border: none;
+    gap: 8px ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.txt__mensaje{
+    width:100%;
+    height: 82px;
+    margin-top: 16px;
+    font-family: var(--Raleway);
+    border: none;
+}
+
+.banner__contenido__button{
+    width:133px;
+    gap: 10px;
+    
+}
+
+@media(min-width:719px ){
+ 
+    .footer__container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .txt__nombre{
+        min-width: 434px;
+    }
+    .txt__mensaje{
+        min-width: 434px;
+    }
+    .menu{
+        align-items: left;
+        height: 300px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menu__nav__link{
+        text-align: left;
+
+    }
+
+    .footer{
+        width: 100%-64px;
+        padding: 32px;
+
+    }
+    .contactanos{
+        width: auto;
+        padding-top: 1px;
+    
+    
+    }
+    .menu__nav ul{
+        width: 100%;
+        height: 234px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        
+    
+    }
+}
+    @media(min-width:1200px ){
+        .footer{
+            padding: 64px;
+            display: flex;
+            justify-content: center;
+        }
+        .footer__container{
+          
+            width: 1136px;
+            height: 240px;
+            justify-content: space-between;
+            
+
+        }
+        .menu{
+            display: flex;
+            width: 560px;
+            flex-direction: row;
+           justify-content: space-around;
+            align-items: flex-start;
+            height: 240px;
+           
+        }
+
+        .contactanos{
+            width: 560px;
+            height: 240;
+            
+        }
+
+     
+
+        
+
+        
+
+    }
+

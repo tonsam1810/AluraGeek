@@ -1,0 +1,187 @@
+:root{
+    --Raleway: 'Raleway',sans-serif;
+    --txtcolor:#464646;
+    --banner:#ffff;
+    --azul:#2A7AE4;
+    ;
+    
+}
+
+.listado__productos{
+    width: 100%-32px;
+    height: auto;
+    padding: 16px;
+    
+    
+    
+    
+}
+
+.container__listado__productos{
+    width: 100%;
+    height: auto;
+   
+}
+
+.container__listado__productos__encabezado{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  
+    display: flex;
+    align-items: center;
+   
+}
+
+.container__listado__productos__encabezado h2{
+    font-family: var(--Raleway);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--txtcolor);
+
+
+}
+
+.container__listado__productos__encabezado a{
+    font-family: var(--Raleway);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--azul);
+    
+
+
+}
+
+
+
+.lista__productos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   padding-top: 16px;
+
+}
+
+.producto{
+    width: 156px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    
+    padding-bottom: 6px;
+    
+   
+
+}
+
+.img__producto{
+    width: 156px;
+    height: auto;
+
+}
+
+.producto__titulo{
+    font-family: var(--Raleway);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--txtcolor);
+    margin-top: 6px;
+
+
+}
+
+.producto__precio{
+    font-family: var(--Raleway);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--txtcolor);
+    margin-top: 6px;
+
+
+}
+
+.enlace___producto{
+    font-family: var(--Raleway);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--azul);
+    margin-top: 6px;
+
+
+}
+
+@media(min-width:719px ){
+    .producto{
+        width: 164px;
+        height: auto;
+        gap: 8px;
+        
+
+    }
+    .listado__productos{
+        width: 100%-64px;
+        padding: 32px;
+       
+    }
+}
+
+@media(min-width:1200px ){
+    .producto{
+        width: 176px;
+        height: 252px;
+        height: auto;
+        gap: 8px;
+    
+        justify-content: space-between;
+       
+    }
+    .listado__productos{
+        width: 100%-64px;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+       
+    }
+    .img__producto{
+        width: 176px;
+    }
+    .container__listado__productos__encabezado h2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .container__listado__productos{
+        width: 1136px;
+       
+        justify-content: center;
+        
+
+    }
+}
+
+

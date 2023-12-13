@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombres": "Juan",
+      "apellidos": "Pérez",
+      "edad": 30,
+      "correo": "juan@example.com",
+      "password": "contraseña123"
+    },
+    {
+      "id": 2,
+      "nombres": "María",
+      "apellidos": "Gómez",
+      "edad": 25,
+      "correo": "maria@example.com",
+      "password": "clave456"
+    },
+
+    {
+      "id": 3,
+      "nombres": "Tony",
+      "apellidos": "Valverde",
+      "edad": 23,
+      "correo": "tony@gmail.com",
+      "password": "tony"
+    }
+  ]
+}
