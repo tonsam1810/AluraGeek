@@ -18,7 +18,7 @@
 .banner__contenido{
     width:100%;
     height:192px;
-    background-image: url(/img/banner_consolas.webp) ;
+    background-image: url(../img/banner_consolas.webp) ;
     /* Hace que la imagen de fondo ocupe el 100% del ancho y alto del contenedor */
     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
     background-position: center; /* Centra la imagen en el contenedor */
